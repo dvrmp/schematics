@@ -23,6 +23,12 @@
       "schema": "./lib/controller/schema.json",
       "aliases": ["co"]
     },
+    "command": {
+      "factory": "./lib/command/command.factory#main",
+      "description": "Create a Nest Command.",
+      "schema": "./lib/command/schema.json",
+      "aliases": ["com"]
+    },
     "decorator": {
       "factory": "./lib/decorator/decorator.factory#main",
       "description": "Create a Nest decorator.",
